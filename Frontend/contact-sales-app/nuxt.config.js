@@ -50,17 +50,12 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
-    '@nuxtjs/proxy',
-    '@nuxtjs/svg-sprite',
+    '@nuxtjs/proxy'
   ],
 
   gtm: {
     id: 'GTM-PN7TLPG',
     enabled: true
-  },
-
-  svgSprite: {
-    input: '~/assets/svg/'
   },
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)

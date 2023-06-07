@@ -5,16 +5,13 @@
   "private": true,
   "scripts": {
     "dev": "nuxt",
-    "dev-mobile": "nuxt --hostname 192.168.1.27 --port 3000",
-    "start": "nuxt start",
-    "build": "nuxt build",
-    "generate": "nuxt generate"
+    "dev-mobile": "nuxt --hostname 192.168.1.27 --port 3000"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.12.2",
     "@nuxtjs/dotenv": "^1.4.1",
-    "@nuxtjs/proxy": "^2.1.0",
     "@nuxtjs/pwa": "^3.0.2",
+    "@nuxtjs/proxy": "^2.1.0",
     "core-js": "^3.21.1",
     "nuxt": "^2.14.12",
     "nuxt-trailingslash-module": "^1.1.0",

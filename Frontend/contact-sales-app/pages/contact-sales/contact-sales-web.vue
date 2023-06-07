@@ -78,6 +78,7 @@
                     height="200"
                     outlined
                     v-model="message"
+                    :rules="messageRules"
                   >
                   </v-textarea>
                   <v-btn
@@ -177,6 +178,7 @@ export default {
       message: "",
       useremail: "",
       nameRules: [(v) => !!v || "Please enter your name"],
+      messageRules: [(v) => !!v || "Message is required"],
       emailRules: [
         (v) => !!v || "Please enter your email",
         (v) =>
@@ -189,7 +191,7 @@ export default {
   //defined computed properties
   computed: {
     isDataValid() {
-      return this.firstName && this.lastName && this.email;
+      return this.firstName && this.lastName && this.email && this.message;
     },
   },
   //defined methods
