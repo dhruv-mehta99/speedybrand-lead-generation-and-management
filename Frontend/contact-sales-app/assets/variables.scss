@@ -1,0 +1,160 @@
+// Ref: https://github.com/nuxt-community/vuetify-module#customvariables
+//
+// The variables you want to modify
+// $font-size-root: 20px;
+@import '~vuetify/src/styles/styles.sass';
+
+@import '~vuetify/src/components/VSwitch/_variables.scss';
+ $switch-track-width: 24px;
+
+
+@media only screen and (min-width: map-get($grid-breakpoints, 'sm')) {
+  .container {
+    max-width: 1080px !important;
+  }
+}
+
+.no-uppercase {
+  text-transform: none;
+  letter-spacing: 0.25px !important;
+}
+
+.zero-roundness {
+  border-radius: 0 !important;
+}
+
+.zerodha-title {
+  color: #387ED1;
+}
+
+.idfc-title {
+  color: #9B1E27;
+}
+
+.udaan-title {
+  color: #B02C2B;
+}
+
+.airbnb-title {
+  color: #FF6759;
+}
+
+.scripbox-title {
+  color: #F1803A;
+}
+
+
+// Flex variables
+
+.justify-end {
+  justify-content: flex-end !important;
+}
+
+.justify-center {
+  justify-content: center !important;
+}
+
+.justify-space-around {
+  justify-content: space-around !important;
+}
+
+.justify-space-between {
+  justify-content: space-between !important;
+}
+
+.justify-space-evenly {
+  justify-content: space-evenly !important;
+}
+
+.align-center {
+  align-content: center !important;
+  align-self: center !important;
+  align-items: center !important;
+}
+.align-end {
+  align-content: flex-end !important;
+  align-self: flex-end !important;
+  align-items: flex-end !important;
+}
+
+.v-carousel__controls__item {
+  color: #FF6859 !important
+}
+
+.v-application .title {
+  font-size: 32px !important;
+  line-height: 40px !important;
+}
+
+.v-application .display-4 {
+  font-size: 64px !important;
+  line-height: 78px !important;
+}
+
+.v-application .display-3 {
+  font-size: 56px !important;
+  line-height: 65px !important;
+}
+
+.v-application .display-2 {
+  font-size: 48px !important;
+  line-height: 54px !important;
+}
+
+.v-application .display-1 {
+  font-size: 40px !important;
+  line-height: 48px !important;
+}
+
+.v-application .headline {
+  font-size: 36px !important;
+  line-height: 42px !important;
+}
+
+.v-application .title {
+  font-size: 32px !important;
+  line-height: 40px !important;
+}
+
+.v-application .subheading-1 {
+  font-size: 24px !important;
+  line-height: 30px !important;
+}
+
+.v-application .subheading-2 {
+  font-size: 26px !important;
+  line-height: 32px !important;
+}
+
+.v-application .body-1 {
+  font-size: 16px !important;
+  line-height: 24px !important;
+}
+
+.v-application .body-2 {
+  font-size: 20px !important;
+  line-height: 26px !important;
+}
+
+.v-application .caption {
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.v-application a {
+  color: none !important;
+}
+
+// Text Alignment
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.code-color {
+  color: #06E8CD;
+}

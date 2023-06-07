@@ -1,0 +1,36 @@
+{
+  "name": "speedy-app",
+  "description": "Speedy AI Powered Content Marketing for Your Business",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "dev-mobile": "nuxt --hostname 192.168.1.27 --port 3000",
+    "start": "nuxt start",
+    "build": "nuxt build",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.12.2",
+    "@nuxtjs/dotenv": "^1.4.1",
+    "@nuxtjs/proxy": "^2.1.0",
+    "@nuxtjs/pwa": "^3.0.2",
+    "core-js": "^3.21.1",
+    "nuxt": "^2.14.12",
+    "nuxt-trailingslash-module": "^1.1.0",
+    "vue": "^2.6.14",
+    "vue-server-renderer": "^2.6.14",
+    "vue-template-compiler": "^2.6.14",
+    "vuelidate": "^0.7.6",
+    "vuetify": "^2.5.5"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config-typescript": "^6.0.1",
+    "@nuxtjs/vuetify": "^1.12.1",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "prettier": "^2.4.1",
+    "raw-loader": "^4.0.2"
+  }
+}
